@@ -1,7 +1,8 @@
 .App {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: 500;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-weight: 200;
   color: #5e5e5e;
+  text-transform: uppercase;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -12,7 +13,12 @@
 }
 
 header {
-  font-size: 2rem;
+  font-size: 5rem;
   padding: 2rem 0;
   text-align: center;
+  border-bottom: 1px solid #5e5e5e;
+}
+
+p {
+  font-size: 2rem;
 }
