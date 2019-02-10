@@ -1,0 +1,16 @@
+.App {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  color: #5e5e5e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url(../assets/white_wall_hash.png) repeat;
+}
+
+header {
+  font-size: 2rem;
+  padding: 2rem 0;
+}
