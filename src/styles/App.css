@@ -7,10 +7,12 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
+
   background: url(../assets/white_wall_hash.png) repeat;
 }
 
 header {
   font-size: 2rem;
   padding: 2rem 0;
+  text-align: center;
 }
