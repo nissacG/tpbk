@@ -1,29 +1,53 @@
 body {
   margin: 0;
   padding: 0;
+  
+  /* Below intended for side panels */
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  /* background: url(../assets/organic-tiles.png) repeat; */
+  /* background: url(../assets/seigaiha.png) repeat; */
+  /* background: url(../assets/stripes-light.png) repeat; */
+  /* background: url(../assets/white_wave.png) repeat; */
 }
 
 .App {
-  font-family: 'Yanone Kaffeesatz', sans-serif;
-  font-weight: 200;
+  /* font-family: 'Yanone Kaffeesatz', sans-serif; */
+  /* Open Sans Condensed from google fonts? */
+  /* Saira Ectra Condensed from google fonts? */
+  /* Julius Sans One from google fonts? */
   color: #5e5e5e;
-  text-transform: uppercase;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
-
+  /* width: 85vw; */
   background: url(../assets/white_wall_hash.png) repeat;
+  background-color: #fff;
 }
 
 header {
   font-size: 5rem;
+  /* font-family: 'Rajdhani', sans-serif; */
+  /* font-family: 'Amatic SC', cursive; */
+  font-family: 'Oswald', sans-serif;
+  font-weight: 200;
+  text-transform: uppercase;
   padding: 2rem 0;
   text-align: center;
   border-bottom: 1px solid #5e5e5e;
 }
 
 p {
-  font-size: 2rem;
+  /* font-family: 'Raleway', sans-serif; */
+  /* Unna from google fonts? */
+  /* Cormorant SC from google fonts? */
+
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 300;
+
 }
