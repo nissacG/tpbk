@@ -22,3 +22,17 @@ header {
 p {
   font-size: 2rem;
 }
+
+#header {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navbar > * {
+  display: inline;
+  list-style: none;
+}
+
+.navbar > *:not(:last-child) {
+  margin-right: 8px;
+}
